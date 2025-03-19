@@ -95,7 +95,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex-1 relative min-h-[50vh] md:min-h-full flex items-center justify-center p-4">
-          <div className="relative h-[500px] w-full">
+          <div className="relative h-[500px] w-full flex justify-center md:justify-start md:pl-8">
             <video
               id="traceToSketchVideo"
               src="/FinalTraceDemo.mp4"
@@ -141,14 +141,14 @@ export default function Home() {
               alt="Ampiy Flutter Homepage"
               width={300}
               height={500}
-              className="absolute object-contain left-[10%] top-1/2 -translate-y-1/2 rounded-xl border-0 border-gray-800"
+              className="absolute object-contain md:left-[10%] left-1/2 -translate-x-1/2 md:translate-x-0 top-1/2 -translate-y-1/2 rounded-xl border-0 border-gray-800"
             />
             <Image
               src="/amphy_2.png"
               alt="Ampiy Flutter Price Page"
               width={300}
               height={500}
-              className="absolute object-contain right-[10%] top-1/2 -translate-y-1/2 rounded-xl border-0 border-gray-800"
+              className="absolute object-contain md:right-[10%] right-1/2 translate-x-1/2 md:translate-x-0 top-1/2 -translate-y-1/2 rounded-xl border-0 border-gray-800 md:block hidden"
             />
           </div>
         </div>
@@ -184,14 +184,14 @@ export default function Home() {
               alt="Historical Flutter Mobile"
               width={200}
               height={450}
-              className="absolute object-contain left-[0%] top-1/2 -translate-y-1/2 rounded-xl border-0 border-gray-800"
+              className="absolute object-contain md:left-[5%] left-1/2 -translate-x-1/2 md:translate-x-0 top-1/2 -translate-y-1/2 rounded-xl border-0 border-gray-800"
             />
             <Image
               src="/HistoricalLaptop.png"
               alt="Historical Flutter Laptop"
-              width={450}
+              width={400}
               height={580}
-              className="absolute object-contain right-[0%] top-1/2 -translate-y-1/2 rounded-xl border-0 border-gray-800"
+              className="absolute object-contain md:right-[5%] right-1/2 translate-x-1/2 md:translate-x-0 top-1/2 -translate-y-1/2 rounded-xl border-0 border-gray-800 md:block hidden"
             />
           </div>
         </div>
